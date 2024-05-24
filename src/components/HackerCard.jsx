@@ -6,23 +6,26 @@ import { AtSymbolIcon } from "@heroicons/react/16/solid";
 
 function HackerCard({ nom, pseudo, image, bio }) {
     return (
-        <div className="w-87 h-auto rounded-3xl m-5 p-4 relative bg-gray-800 text-white dark:bg-white dark:text-black">
+        <div className="relative w-100 h-100 bg-slate-300 dark:bg-slate-800 border border-solid dark:border-slate-300 rounded-3xl top-1/4 transform -translate-y-1/6 left-auto shadow-2xl shadow-gray-500 dark:shadow-slate-900 flex flex-col justify-start items-center mx-auto mt-20 mb-2">
             <img
-                className="hacker-image top-3 left-20 dark:border-black"
+                className="w-32 h-32 hacker-image dark:border-slate-300"
                 src={image}
                 alt={`Photo de ${nom}`}
             />
-            <h2 className="mt-5 mr-2 text-right text-lg font-bold dark:text-black">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-300 mt-20">
                 {nom}
             </h2>
-            <h2 className="mt-3 mr-2 text-right text-md font-bold dark:text-black">
-                <AtSymbolIcon className="inline-block w-4 h-4 mr-1 text-gray-100 dark:text-gray-900" />
+            <h2 className="text-gray-900 dark:text-gray-300">
+                <AtSymbolIcon className="inline-block w-4 h-4 text-gray-900 dark:text-gray-300" />
                 {pseudo}
             </h2>
-            <p className="border-white border-2 rounded-3xl mt-14 p-3 tracking-tighter dark:border-gray-900 dark:text-black">
+
+            <hr className="w-96 border border-solid mt-4 mb-4 border-gray-900 opacity-25 dark:border-gray-500" />
+            <p className="text-slate-900 -tracking-wider px-10 pr-10 dark:text-gray-300 ">
                 {bio}
             </p>
-            <Button className="text-gray-200 mt-4 ml-2 border-white border-2 rounded-2xl p-2 mx-auto block dark:border-gray-900 dark:text-black">
+            <hr className="w-96 border border-solid mt-4 mb-1 border-gray-900 opacity-25 dark:border-gray-500" />
+            <Button className="mx-auto my-auto border-2 border-solid border-slate-900 text-slate-900 p-2 mb-2 dark:border-slate-300 dark:text-slate-300">
                 Read More
             </Button>
         </div>

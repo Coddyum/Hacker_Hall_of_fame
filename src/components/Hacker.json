@@ -2,22 +2,22 @@
     { 
       "id": 1,
       "pseudo": "Sabu",
-      "nom": "Hector Monsegur",
+      "nom": "Hector Xavier Monsegur",
       "image": "src/assets/img/Hector-Xavier-Monsegur.png",
-      "bio": "De son vrai nom Hector Xavier Monsegur était un membre actif d'Anonymous et de LulzSec, un groupe dérivé d'Anonymous."
+      "bio": "Hector Monsegur aussi connu sous le pseudonyme 'Sabu': était un membre actif d'Anonymous et de LulzSec, un groupe dérivé d'Anonymous. Il a été impliqué dans plusieurs opérations de piratage informatique, notamment le piratage du site web de la société de sécurité informatique HBGary Federal en 2011."
     },
     {
       "id": 2,
       "pseudo": "Jeremy Hammond",
       "nom": "Jeremy Hammond",
       "image": "src/assets/img/Jeremy-Hammond.png",
-      "bio": "Hammond était un hacker et un militant politique qui a été impliqué dans plusieurs opérations d'Anonymous."
+      "bio": "Jeremy Hammond: Hammond était un hacker et un militant politique qui a été impliqué dans plusieurs opérations d'Anonymous. Il a été arrêté en mars 2012 pour avoir piraté le site web de Stratfor, une entreprise de renseignement privée, et avoir divulgué des millions de courriels."
     },
     {
       "id": 3,
       "pseudo": "Lauri Love",
       "nom": "Lauri Love",
       "image": "src/assets/img/Lauri-Love.png",
-      "bio": " Love est un militant politique et un expert en CyberSécurity qui a été impliqué dans plusieurs opérations d'Anonymous."
+      "bio": " Lauri Love: Love est un militant politique et un expert en sécurité informatique qui a été impliqué dans plusieurs opérations d'Anonymous. Il a été accusé en 2013 d'avoir piraté les systèmes informatiques de plusieurs agences gouvernementales américaines, notamment la NASA, le FBI et l'armée de l'air américaine."
     }
   ]
