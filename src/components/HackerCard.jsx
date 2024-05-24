@@ -25,7 +25,7 @@ function HackerCard({ nom, pseudo, image, bio }) {
                 {bio}
             </p>
             <hr className="w-96 border border-solid mt-4 mb-1 border-gray-900 opacity-25 dark:border-gray-500" />
-            <Button className="mx-auto my-auto border-2 border-solid border-slate-900 rounded-2xl text-slate-900 p-2 mb-2 dark:border-slate-300 dark:text-slate-300">
+            <Button type="button" className="mx-auto my-auto border-2 border-solid border-slate-900 rounded-lg text-slate-900 p-3 mb-2 dark:border-slate-300 dark:text-slate-300 bg-slate-300 dark:bg-slate-800">
                 Read More
             </Button>
         </div>
