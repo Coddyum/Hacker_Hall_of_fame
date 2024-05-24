@@ -2,6 +2,7 @@ import React from "react";
 import hackerData from "./Hacker.json";
 import "./HackerCard.css";
 import { Button } from "@material-tailwind/react";
+import { AtSymbolIcon } from "@heroicons/react/16/solid";
 
 function HackerCard() {
     return (
@@ -18,13 +19,17 @@ function HackerCard() {
                     <h2 className="mt-5 mr-2 text-right text-lg font-bold dark:text-black">
                         {hacker.nom}
                     </h2>
+
                     <h2 className="mt-3 mr-2 text-right text-md font-bold dark:text-black">
+                        <AtSymbolIcon className="inline-block w-4 h-4 mr-1 text-gray-900" />
                         {hacker.pseudo}
                     </h2>
                     <p className="border-white border-2 rounded-3xl mt-14 p-3 tracking-tighter dark:border-gray-900 dark:text-black">
                         {hacker.bio}
                     </p>
-                    <Button className="text-blue-500 mt-4 ml-2 border-white border-2 rounded-2xl p-2 mx-auto block ">Read More</Button>
+                    <Button className="text-gray-200 mt-4 ml-2 border-white border-2 rounded-2xl p-2 mx-auto block dark:border-gray-900 dark:text-black">
+                        Read More
+                    </Button>
                 </div>
             ))}
         </div>
